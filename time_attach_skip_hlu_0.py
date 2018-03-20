@@ -3,14 +3,12 @@ from __future__ import division
 import itertools
 import math
 import sys
+from contextlib import contextmanager
 from functools import wraps
 from multiprocessing import dummy as multithread
 from time import time
-from contextlib import contextmanager
 
-import mock
 import storops
-from tooz import coordination
 
 unity = storops.UnitySystem('10.245.101.39', 'admin', 'Password123!')
 storops.enable_log()
@@ -56,10 +54,13 @@ def timer():
 
 
 def prepare_host_luns():
-    hosts = [host for host in unity.get_host()
-             if host.name.startswith('host-liangr-')]
-    luns = [lun for lun in unity.get_lun()
-            if lun.get_id() not in ('sv_999', 'sv_1061', 'sv_1062')][:29]
+    hosts = sorted([host for host in unity.get_host()
+                    if host.name.startswith('host-liangr-01')],
+                   key=lambda x: x.get_id())
+    luns = sorted([lun for lun in unity.get_lun()
+                   if lun.description
+                   and lun.description.startswith('v-u-ml-')],
+                  key=lambda x: x.get_id())
     n = int(math.ceil(len(luns) / len(hosts)))
     hosts_repeat = itertools.chain.from_iterable([hosts] * n)
     return zip(hosts_repeat, luns)
@@ -90,17 +91,21 @@ def attach(index, host, lun):
     print('Attach: {},{},{}'.format(host.get_id(), lun.get_id(), t.interval))
 
 
-def main(action):
-    host_lun_pairs = prepare_host_luns()
-    print('Number of host-lun pairs: {}'.format(len(host_lun_pairs)))
+NUMBER = 10
 
-    pool = multithread.Pool(29)
+
+def main(action, number=NUMBER):
+    host_lun_pairs = prepare_host_luns()
+
+    pool = multithread.Pool(number)
     with timer() as total_time:
         if action == 'test':
             # coordinator = coordination.get_coordinator(
             #     'file:///tmp/skip_hlu_0', 'localhost')
             # coordinator.start()
             # pool.map(lambda t: attach_lock(coordinator, *t), host_lun_pairs)
+            host_lun_pairs = host_lun_pairs[:number]
+            print('Number of host-lun pairs: {}.'.format(number))
             pool.map(lambda t: attach(t[0], *t[1]), enumerate(host_lun_pairs))
             # coordinator.stop()
         elif action == 'clean':
@@ -109,4 +114,4 @@ def main(action):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main(sys.argv[1], int(sys.argv[2]))
