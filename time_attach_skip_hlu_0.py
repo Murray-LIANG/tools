@@ -10,7 +10,8 @@ from time import time
 
 import storops
 
-unity = storops.UnitySystem('10.245.101.39', 'admin', 'Password123!')
+UNITY = storops.UnitySystem('10.245.101.39', 'admin', 'Password123!')
+VNX = storops.VNXSystem('192.168.1.50', 'sysadmin', 'sysadmin')
 storops.enable_log()
 
 
@@ -53,14 +54,23 @@ def timer():
         _timer.end = time()
 
 
-def prepare_host_luns():
-    hosts = sorted([host for host in unity.get_host()
-                    if host.name.startswith('host-liangr-01')],
-                   key=lambda x: x.get_id())
-    luns = sorted([lun for lun in unity.get_lun()
-                   if lun.description
-                   and lun.description.startswith('v-u-ml-')],
-                  key=lambda x: x.get_id())
+def get_host_luns(array):
+    if isinstance(array, storops.VNXSystem):
+        hosts = sorted([host for host in array.get_sg()
+                        if host.name.startswith('host-liangr-')],
+                       key=lambda x: x.name)
+        luns = sorted([lun for lun in array.get_lun()
+                       if lun.name.startswith('v-u-ml-')],
+                      key=lambda x: x.name)
+    else:
+        hosts = sorted([host for host in array.get_host()
+                        if host.name.startswith('host-liangr-')],
+                       key=lambda x: x.get_id())
+        luns = sorted([lun for lun in array.get_lun()
+                       if lun.description
+                       and lun.description.startswith('v-u-ml-')],
+                      key=lambda x: x.get_id())
+
     n = int(math.ceil(len(luns) / len(hosts)))
     hosts_repeat = itertools.chain.from_iterable([hosts] * n)
     return zip(hosts_repeat, luns)
@@ -80,38 +90,54 @@ def attach_lock(coordinator, host, lun):
         host.attach(lun, skip_hlu_0=True)
 
 
-def attach(index, host, lun):
+def attach(array, index, host, lun):
+    print('Attaching: {},{}'.format(host.name, lun.name))
     import time as t
     t.sleep(index * 2)
     with timer() as t:
         # with mock.patch('storops.unity.resource.host.UnityHost.attach',
         #                 new=fake_attach):
         #     host.attach(lun)
-        host.attach(lun, skip_hlu_0=True)
-    print('Attach: {},{},{}'.format(host.get_id(), lun.get_id(), t.interval))
+        if isinstance(array, storops.VNXSystem):
+            host.attach_alu(lun)
+        else:
+            host.attach(lun, skip_hlu_0=True)
+    print('Attached: {},{},{}'.format(host.name, lun.name, t.interval))
 
 
-NUMBER = 10
+def detach(array, index, host, lun):
+    print('Detaching: {},{}'.format(host.name, lun.name))
+    import time as t
+    t.sleep(index * 2)
+    with timer() as t:
+        if isinstance(array, storops.VNXSystem):
+            host.detach_alu(lun)
+        else:
+            lun.detach_from(None)
+    print('Detached: {},{},{}'.format(host.name, lun.name, t.interval))
 
 
-def main(action, number=NUMBER):
-    host_lun_pairs = prepare_host_luns()
+def main(array, action, number=10):
+    array = VNX if array == 'vnx' else UNITY
+    host_lun_pairs = get_host_luns(array)
 
     pool = multithread.Pool(number)
+    host_lun_pairs = host_lun_pairs[:number]
+    print('Number of host-lun pairs: {}.'.format(number))
     with timer() as total_time:
         if action == 'test':
             # coordinator = coordination.get_coordinator(
             #     'file:///tmp/skip_hlu_0', 'localhost')
             # coordinator.start()
             # pool.map(lambda t: attach_lock(coordinator, *t), host_lun_pairs)
-            host_lun_pairs = host_lun_pairs[:number]
-            print('Number of host-lun pairs: {}.'.format(number))
-            pool.map(lambda t: attach(t[0], *t[1]), enumerate(host_lun_pairs))
+            pool.map(lambda t: attach(array, t[0], *t[1]),
+                     enumerate(host_lun_pairs))
             # coordinator.stop()
         elif action == 'clean':
-            pool.map(lambda t: t[1].detach_from(None), host_lun_pairs)
+            pool.map(lambda t: detach(array, t[0], *t[1]),
+                     enumerate(host_lun_pairs))
     print('Total time: {}'.format(total_time.interval))
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], int(sys.argv[2]))
+    main(sys.argv[1], sys.argv[2], int(sys.argv[3]))
