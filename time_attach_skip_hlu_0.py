@@ -136,6 +136,10 @@ def main(array, action, number=10):
         elif action == 'clean':
             pool.map(lambda t: detach(array, t[0], *t[1]),
                      enumerate(host_lun_pairs))
+        elif action == 'clean-dummylun':
+            dummy_luns = [lun for lun in unity.get_lun()
+                          if lun.name.startswith('storops_dummy_lun')]
+            pool.map(lambda t: t.delete(), dummy_luns)
     print('Total time: {}'.format(total_time.interval))
 
 
