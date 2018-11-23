@@ -1,0 +1,1516 @@
+{
+    "description": "CREATE_LUN_JOB_DESC",
+    "tasks": [
+        {
+            "name": "CreateNewLuns",
+            "object": "storageResource",
+            "action": "createBulkStandaloneLuns",
+            "description": "CREATE_LUN_TASK_DESC",
+            "descriptionArg": "lun_prefix-00 - lun_prefix-99",
+            "parametersIn": {
+                "lunCreate": [
+                    {
+                        "name": "lun_prefix-00",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-01",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-02",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-03",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-04",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-05",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-06",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-07",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-08",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-09",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-10",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-11",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-12",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-13",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-14",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-15",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-16",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-17",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-18",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-19",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-20",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-21",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-22",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-23",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-24",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-25",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-26",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-27",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-28",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-29",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-30",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-31",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-32",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-33",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-34",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-35",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-36",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-37",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-38",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-39",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-40",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-41",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-42",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-43",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-44",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-45",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-46",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-47",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-48",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-49",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-50",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-51",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-52",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-53",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-54",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-55",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-56",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-57",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-58",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-59",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-60",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-61",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-62",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-63",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-64",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-65",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-66",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-67",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-68",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-69",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-70",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-71",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-72",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-73",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-74",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-75",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-76",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-77",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-78",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-79",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-80",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-81",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-82",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-83",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-84",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-85",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-86",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-87",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-88",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-89",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-90",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-91",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-92",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-93",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-94",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-95",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-96",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-97",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-98",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun_prefix-99",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
