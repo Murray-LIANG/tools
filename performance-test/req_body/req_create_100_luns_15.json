@@ -1,0 +1,1516 @@
+{
+    "description": "CREATE_LUN_JOB_DESC",
+    "tasks": [
+        {
+            "name": "CreateNewLuns",
+            "object": "storageResource",
+            "action": "createBulkStandaloneLuns",
+            "description": "CREATE_LUN_TASK_DESC",
+            "descriptionArg": "lun-15-00 - lun-15-99",
+            "parametersIn": {
+                "lunCreate": [
+                    {
+                        "name": "lun-15-00",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-01",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-02",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-03",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-04",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-05",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-06",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-07",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-08",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-09",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-10",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-11",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-12",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-13",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-14",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-15",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-16",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-17",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-18",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-19",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-20",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-21",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-22",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-23",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-24",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-25",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-26",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-27",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-28",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-29",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-30",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-31",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-32",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-33",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-34",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-35",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-36",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-37",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-38",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-39",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-40",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-41",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-42",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-43",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-44",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-45",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-46",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-47",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-48",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-49",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-50",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-51",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-52",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-53",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-54",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-55",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-56",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-57",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-58",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-59",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-60",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-61",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-62",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-63",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-64",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-65",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-66",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-67",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-68",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-69",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-70",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-71",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-72",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-73",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-74",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-75",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-76",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-77",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-78",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-79",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-80",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-81",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-82",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-83",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-84",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-85",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-86",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-87",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-88",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-89",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-90",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-91",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-92",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-93",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-94",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-95",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-96",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-97",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-98",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-15-99",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

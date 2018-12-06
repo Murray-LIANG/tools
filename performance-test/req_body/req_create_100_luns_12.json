@@ -1,0 +1,1516 @@
+{
+    "description": "CREATE_LUN_JOB_DESC",
+    "tasks": [
+        {
+            "name": "CreateNewLuns",
+            "object": "storageResource",
+            "action": "createBulkStandaloneLuns",
+            "description": "CREATE_LUN_TASK_DESC",
+            "descriptionArg": "lun-12-00 - lun-12-99",
+            "parametersIn": {
+                "lunCreate": [
+                    {
+                        "name": "lun-12-00",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-01",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-02",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-03",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-04",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-05",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-06",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-07",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-08",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-09",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-10",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-11",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-12",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-13",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-14",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-15",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-16",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-17",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-18",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-19",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-20",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-21",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-22",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-23",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-24",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-25",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-26",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-27",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-28",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-29",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-30",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-31",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-32",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-33",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-34",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-35",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-36",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-37",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-38",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-39",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-40",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-41",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-42",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-43",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-44",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-45",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-46",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-47",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-48",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-49",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-50",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-51",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-52",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-53",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-54",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-55",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-56",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-57",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-58",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-59",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-60",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-61",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-62",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-63",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-64",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-65",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-66",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-67",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-68",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-69",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-70",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-71",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-72",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-73",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-74",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-75",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-76",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-77",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-78",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-79",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-80",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-81",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-82",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-83",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-84",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-85",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-86",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-87",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-88",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-89",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-90",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-91",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-92",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-93",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-94",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-95",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-96",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-97",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-98",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    },
+                    {
+                        "name": "lun-12-99",
+                        "description": "",
+                        "lunParameters": {
+                            "pool": {
+                                "id": "pool_1"
+                            },
+                            "isThinEnabled": true,
+                            "size": 2147483648,
+                            "fastVPParameters": {
+                                "tieringPolicy": 0
+                            },
+                            "isDataReductionEnabled": false
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
