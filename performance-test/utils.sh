@@ -1,5 +1,5 @@
 
-ospt_cmd='echo ospt --storops_unity 10.245.83.243 --username admin --password Password123!'
+ospt_cmd='ospt --storops_unity 10.245.83.243 --username admin --password Password123!'
 
 log_dir="${1:-$(date +'%Y%m%d_%H%M%S')}"
 mkdir -p "${log_dir}"
