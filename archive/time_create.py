@@ -10,7 +10,7 @@ from time import time
 
 import storops
 
-unity = storops.UnitySystem('10.245.101.39', 'admin', 'Password123!')
+unity = storops.UnitySystem('10.245.101.114', 'admin', 'Password123!')
 storops.enable_log()
 
 
@@ -33,8 +33,8 @@ def timer():
 
 
 def create_lun(index, pool, lun_name):
-    # import time as t
-    # t.sleep(index * 2)
+    import time as t
+    t.sleep(index * 2)
     print('Creating: {},{}'.format(pool.name, lun_name))
     with timer() as t:
         pool.create_lun(lun_name)
@@ -49,10 +49,10 @@ def delete_lun(lun_name):
 
 
 def main(action, number=10):
-    unity_pool = unity.get_pool(name='Demo-Pool')
+    unity_pool = unity.get_pool(name='pool-1')
     print('Using Pool: {}.'.format(unity_pool.name))
 
-    lun_names = ['lun-liangr-{:2d}'.format(i) for i in range(number)]
+    lun_names = ['lun-liangr-{:02d}'.format(i) for i in range(number)]
 
     pool = multithread.Pool(number)
     with timer() as total_time:

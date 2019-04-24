@@ -54,6 +54,7 @@ def timer():
         _timer.end = time()
 
 
+<<<<<<< HEAD
 def get_host_luns(array):
     if isinstance(array, storops.VNXSystem):
         hosts = sorted([host for host in array.get_sg()
@@ -71,6 +72,16 @@ def get_host_luns(array):
                        and lun.description.startswith('v-u-ml-')],
                       key=lambda x: x.get_id())
 
+=======
+def prepare_host_luns():
+    hosts = sorted([host for host in unity.get_host()
+                    if host.name.startswith('host-liangr-')],
+                   key=lambda x: x.get_id())
+    luns = sorted([lun for lun in unity.get_lun()
+                   if lun.description
+                   and lun.description.startswith('v-u-ml-')],
+                  key=lambda x: x.get_id())
+>>>>>>> Add lun creation test
     n = int(math.ceil(len(luns) / len(hosts)))
     hosts_repeat = itertools.chain.from_iterable([hosts] * n)
     return zip(hosts_repeat, luns)
@@ -134,12 +145,16 @@ def main(array, action, number=10):
                      enumerate(host_lun_pairs))
             # coordinator.stop()
         elif action == 'clean':
+<<<<<<< HEAD
             pool.map(lambda t: detach(array, t[0], *t[1]),
                      enumerate(host_lun_pairs))
+=======
+            pool.map(lambda t: t[1].detach_from(None), host_lun_pairs)
         elif action == 'clean-dummylun':
             dummy_luns = [lun for lun in unity.get_lun()
                           if lun.name.startswith('storops_dummy_lun')]
             pool.map(lambda t: t.delete(), dummy_luns)
+>>>>>>> Add lun creation test
     print('Total time: {}'.format(total_time.interval))
 
 
